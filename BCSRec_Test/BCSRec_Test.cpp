@@ -14,6 +14,7 @@ namespace BCSRecTest
 	{
 	public:
 		
+//------------------------> getPeramiter() Tests <------------------------
 		TEST_METHOD(getPerimeterTestOne)
 		{
 			//This is testing the getPeramitor function using, 
@@ -27,6 +28,8 @@ namespace BCSRecTest
 			Assert::AreEqual(30, result);
 		}
 
+
+//---------------------------> getArea() Tests <---------------------------
 		TEST_METHOD(getAreaTestOne)
 		{
 			//This is testing the getArea function using,
@@ -40,6 +43,8 @@ namespace BCSRecTest
 			Assert::AreEqual(54, result);
 		}
 
+
+//--------------------------> setLength() Tests <--------------------------
 
 		TEST_METHOD(setLengthTestOne)
 		{
@@ -87,6 +92,7 @@ namespace BCSRecTest
 		}
 
 
+//--------------------------> setLength() Tests <--------------------------
 
 		TEST_METHOD(setWidthTestOne)
 		{
